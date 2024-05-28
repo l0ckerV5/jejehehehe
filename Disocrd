@@ -1,0 +1,10 @@
+toclipboard("https://discord.gg/EsfXUJBcfm")
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Copied To Clipboard!",
+Text = "Copied The Link", 
+
+Button1 = "Yes",
+Button2 = "Cancel",
+Duration = 30 
+})
