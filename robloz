@@ -1,0 +1,10 @@
+toclipboard("https://www.roblox.com/users/4575899345/profile")
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Copied To Clipboard!",
+Text = "Copied The Link", 
+
+Button1 = "Yes",
+Button2 = "Cancel",
+Duration = 30 
+})
