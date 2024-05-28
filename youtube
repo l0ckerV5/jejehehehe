@@ -1,0 +1,10 @@
+toclipboard("https://youtube.com/@l0ckerv5?si=mzcoLLbVw3FyLCd1")
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Copied To Clipboard!",
+Text = "Copied The Link", 
+
+Button1 = "Yes",
+Button2 = "Cancel",
+Duration = 30 
+})
